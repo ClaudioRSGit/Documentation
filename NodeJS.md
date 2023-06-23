@@ -21,9 +21,6 @@
 
 ## Installation Links
 
-### Xampp Install: [Xamp Link](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.33/xampp-windows-x64-7.4.33-0-VC15-installer.exe/download)
-
-### Composer Install: [Composer Link](https://getcomposer.org/Composer-Setup.exe)
 
 ### NVM Install: [Github](https://github.com/nvm-sh/nvm)
 
@@ -102,41 +99,62 @@ nvm ls
 ```  
 > List installed Node.js versions
 
-``` shell
+```shell
 nvm -v
 ```  
 > Display nvm's version
                    
 ---
-### ES Native Modules vs CommonsJS
+## ES Native Modules vs CommonsJS
 
-```shell
-import { registerFormEvents } from "./components/contactFrosm.js";
-```  
-> ES Native Module
 
-```shell
-const fs = require('fs')
-```  
-> Common js (NodeJS)
+### CommonJS
 
-### Exports
+#### <u>Export</u>
 `const name = "Claudio";`
-```shell
+```javascript
 module.exports = {name};
 ```  
 > Exporting object `name` so it can be imported afterwards
 
+`exporting from greeting.js`
+
+#### <u>Import</u>
+```javascript
+const nome = require("./greeting");
+```  
+> Importing object `name` to a variable `nome`;
+
+### ES Native
+*on `package.json`*
+*add `"type" : "module",`*
+#### <u>Export</u>
+```javascript
+exports const name = "Claudio";
+```
+###### or
+```javascript
+exports(name);
+```  
+> Exporting object `name` so it can be imported afterwards
+
+`exporting from greeting.js`
+
+#### <u>Import</u>
+```javascript
+import { name } from "./greeting";
+```  
+> Importing object `name`
 ---
 
 ## Create Node Project
 
-```shell
+```javascript
 Npm init –y
 ```  
 > -y creates a project with default settings, you can check it on
 `package.json`
-```
+```javascript
 {
   "name": "my-project",
   "version": "1.0.0",
@@ -151,4 +169,22 @@ Npm init –y
 }
 ```
 
-sdfsadf 
+ ### Import Express
+`main.js`
+
+```javascript
+import { express } from 'export';
+``` 
+
+```javascript
+const app = express();
+``` 
+ ### Create Route
+ `main.js`
+
+```javascript
+app.get('/', (reg,res) => {
+  res.send('Hi');
+});
+``` 
+>Request handler to '/' `receives a request and sends out a Hi`

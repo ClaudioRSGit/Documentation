@@ -207,7 +207,18 @@ app.get('/', (reg,res) => {
 ## Create Vite Project
 
 ```shell
-npm create vite@latest
+npm create vite@latest name
 ```  
-> Creates the Vite project
+> Creates the Vite project with the name you want
 
+`Inside the folder`
+
+```shell
+npm install
+```  
+> Install npm
+
+```shell
+npm run dev
+```  
+> Run the app

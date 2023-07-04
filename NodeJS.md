@@ -1,9 +1,13 @@
-# Node JS
+# Node JS / Vite
 
 <a href="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png" />
     <img src="https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg" height="50" alt="nvm project logo" />
+  </picture>&nbsp;&nbsp; 
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://vitejs.dev/logo-with-shadow.png" />
+    <img src="https://vitejs.dev/logo-with-shadow.png" height="50" alt="nvm project logo" />
   </picture>
 </a> &nbsp;&nbsp; 
 <a href="https://github.com/nvm-sh/logos">
@@ -19,7 +23,20 @@
   </picture>
 </a>
 
-## Installation Links
+<br>
+
+- 💡 Instant Server Start
+- ⚡️ Lightning Fast HMR
+- 🛠️ Rich Features
+- 📦 Optimized Build
+- 🔩 Universal Plugin Interface
+- 🔑 Fully Typed APIs
+
+>Next Generation Frontend Tooling
+
+<br>
+
+# Installation Links
 
 
 ### NVM Install: [Github](https://github.com/nvm-sh/nvm)
@@ -105,6 +122,16 @@ nvm -v
 > Display nvm's version
                    
 ---
+
+## Vite Commands ⚡
+
+```shell
+npm create vite@latest
+```  
+> Start Vite with NPM
+
+---
+
 ## ES Native Modules vs CommonsJS
 
 
@@ -154,19 +181,8 @@ Npm init –y
 ```  
 > -y creates a project with default settings, you can check it on
 `package.json`
-```javascript
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
+
+<a href="imgs/package.png">
 ```
 
  ### Import Express

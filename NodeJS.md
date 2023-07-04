@@ -203,3 +203,11 @@ app.get('/', (reg,res) => {
 });
 ``` 
 >Request handler to '/' `receives a request and sends out a Hi`
+
+## Create Vite Project
+
+```shell
+npm create vite@latest
+```  
+> Creates the Vite project
+

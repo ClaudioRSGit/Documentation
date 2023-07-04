@@ -182,7 +182,7 @@ Npm init –y
 > -y creates a project with default settings, you can check it on
 `package.json`
 
-<a href="imgs/package.png">
+<img src="imgs/package.png">
 
  ### Import Express
 `main.js`

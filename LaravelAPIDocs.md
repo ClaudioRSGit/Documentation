@@ -136,7 +136,7 @@ public function destroy(User $user)
 ```php
 public function search(Request $request)
 {
-    return response()->json(User::orderBy("first_name", "desc")->where('first_name', 'LIKE', '%' . $request.first_name . '%')->get(), 200);
+    return response()->json(User::orderBy("first_name", "desc")->where('first_name', 'LIKE', '%' . $request->first_name . '%')->get(), 200);
 }
 ```
 > - Accepts a Request object, likely containing search parameters. <br>

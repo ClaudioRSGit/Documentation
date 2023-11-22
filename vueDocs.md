@@ -2,11 +2,10 @@
 
 # VueJs + Vite
 
-### Next Generation Frontend Tooling
+#### Next Generation Frontend Tooling
 
 
-<img src="https://vueschool.io/img/svg/vueschool_hero.svg
-" alt="nvm project logo" />
+<img src="https://vueschool.io/img/svg/vueschool_hero.svg" alt="nvm project logo" />
 
 <a href="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png">
   <picture>
@@ -57,7 +56,12 @@
 
 ### Node Documentation: [Docs](https://nodejs.org/docs/latest-v18.x/api/)
 
-## Table of Contents
+<br>
+
+---
+<br>
+
+# Table of Contents
 1. [**Conditional Rendering**](#conditional-rendering)
     - [`v-if`](#v-if)
     - [`v-else`](#v-else)

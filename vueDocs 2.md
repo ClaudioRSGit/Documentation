@@ -5,8 +5,7 @@
 ### Next Generation Frontend Tooling
 
 
-<img src="https://vueschool.io/img/svg/vueschool_hero.svg
-" alt="nvm project logo" />
+<img src="https://vueschool.io/img/svg/vueschool_hero.svg" alt="nvm project logo" />
 
 <a href="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png">
   <picture>
@@ -451,8 +450,7 @@ When using the component:
 
 # Pinia
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*xLCksGlmsIPIKC511IEX8A.png
-" alt="nvm project logo" />
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*xLCksGlmsIPIKC511IEX8A.png" alt="nvm project logo" />
 
 Pinia is a state management library for Vue.js that acts as a middleware in your application. While it functions as a UI-less component, it is responsible for storing the state, similar to the data option in a Vue component. Additionally, it introduces getters, akin to computed properties, enabling reading values with modifications, and actions, which are similar to methods. Pinia also allows for direct state modification, providing enhanced flexibility.
 
